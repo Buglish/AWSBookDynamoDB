@@ -1,0 +1,16 @@
+{"book":"Book Title 1","readSession":1,"page":10,"word":1,"createdAt":"2023-11-01T01:30:00Z"}
+{"book":"Book Title 1","readSession":1,"page":15,"word":20,"createdAt":"2023-11-01T02:00:00Z"}
+{"book":"Book Title 1","readSession":1,"page":30,"word":50,"createdAt":"2023-11-01T03:30:00Z"}
+{"book":"Book Title 1","readSession":1,"page":50,"word":15,"createdAt":"2023-11-01T04:00:00Z"}
+{"book":"Book Title 2","readSession":1,"page":1,"word":1,"createdAt":"2023-11-01T04:30:00Z"}
+{"book":"Book Title 2","readSession":1,"page":15,"word":100,"createdAt":"2023-11-01T05:00:00Z"}
+{"book":"Book Title 2","readSession":1,"page":25,"word":35,"createdAt":"2023-11-01T05:30:00Z"}
+{"book":"Book Title 1","readSession":2,"page":60,"word":15,"createdAt":"2023-11-01T06:00:00Z"}
+{"book":"Book Title 1","readSession":2,"page":95,"word":320,"createdAt":"2023-11-01T07:30:00Z"}
+{"book":"Book Title 2","readSession":2,"page":42,"word":82,"createdAt":"2023-11-01T08:00:00Z"}
+{"book":"Book Title 1","readSession":3,"page":122,"word":22,"createdAt":"2023-11-01T10:30:00Z"}
+{"book":"Book Title 1","readSession":3,"page":180,"word":320,"createdAt":"2023-11-02T05:00:00Z"}
+{"book":"Book Title 1","readSession":3,"page":211,"word":182,"createdAt":"2023-11-02T08:30:00Z"}
+{"book":"Book Title 2","readSession":3,"page":50,"word":62,"createdAt":"2023-11-02T11:00:00Z"}
+{"book":"Book Title 2","readSession":3,"page":66,"word":123,"createdAt":"2023-11-03T06:30:00Z"}
+{"book":"Book Title 2","readSession":3,"page":86,"word":65,"createdAt":"2023-11-04T08:00:00Z"}

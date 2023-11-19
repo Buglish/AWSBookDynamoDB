@@ -1,0 +1,47 @@
+{
+  "TableName": "Bookmark",
+  "KeySchema": [
+    {
+      "KeyType": "HASH",
+      "AttributeName": "book"
+    },
+    {
+      "KeyType": "RANGE",
+      "AttributeName": "createdAt"
+    }
+  ],
+  "AttributeDefinitions": [
+    {
+      "AttributeName": "session",
+      "AttributeType": "N"
+    },
+    {
+      "AttributeName": "book",
+      "AttributeType": "N"
+    }
+  ],
+  "BillingMode": "PROVISIONED",
+  "GlobalSecondaryIndexes": [
+    {
+      "IndexName": "Session-Index",
+      "Projection": {
+        "ProjectionType": "ALL"
+      },
+      "KeySchema": [
+        {
+          "AttributeName": "book",
+          "KeyType": "HASH"
+        },
+        {
+          "AttributeName": "session",
+          "KeyType": "RANGE"
+        }
+      ],
+      "BillingMode": "PAY_PER_REQUEST"
+    }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 10,
+    "WriteCapacityUnits": 10
+  }
+}
