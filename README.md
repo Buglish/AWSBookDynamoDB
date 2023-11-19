@@ -56,7 +56,7 @@ Get Reading Session Bookmarks
     Post: http://localhost:8082/bookmark/Book Title 1/session
     Payload:
     {
-        "trip":1,
+        "session":1,
         "createdAt":""
     }
 
